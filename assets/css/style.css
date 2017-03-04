@@ -1,0 +1,16 @@
+body {
+	background: #ccc url("../../assets/images/sayagata-400px.png") repeat fixed center;
+	color: #fafafa;
+	font-family: Georgia, sans-serif;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 650px;
+	padding: 30px;
+	background: #696969;
+}
+
+.answer {
+	cursor: pointer;
+}
