@@ -14,3 +14,7 @@ body {
 .answer {
 	cursor: pointer;
 }
+
+img {
+	max-width: 100%;
+}

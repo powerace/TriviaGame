@@ -1,5 +1,5 @@
 var game = {
-	quesTime: 2,
+	quesTime: 30,
 	questions :[{ 
 		question: "For which comedy did Tom Hanks receive his first Oscar nomination?",
 		choices: ["A League of Their Own", "Sleepless in Seattle", "Splash", "Big"],
@@ -89,10 +89,10 @@ function nextQues(message, img){
 			$('.answers').html(finalMessage);
 			$('.game').append('<button class="restart">Restart</button>');
 			return;
-			}, 5000)
+			}, 6000)
 			
 		} else {
-			setTimeout(quesDetails, 3000);
+			setTimeout(quesDetails, 6000);
 		}
 	}
 
